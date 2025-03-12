@@ -8,6 +8,7 @@ body {
     font-family: 'Oxanium', sans-serif;
     background-color: #f4f4f4;
     color: #333;
+    -webkit-font-smoothing: antialiased;
     text-align: center;
     margin-top: 20%;
 }
@@ -17,11 +18,17 @@ h1 {
     color: #2c3e50;
 }
 
-p {
+/*p {
     font-size: 1.2em;
     color: #7f8c8d;
+}*/
+.description {
+    margin-top: -70px;
+    margin-left: -120px;
+    font-size: 20px;
+    font-family: 'Oxanium', sans-serif;
+    color: #999;
 }
-
 /* Media query for tablets and larger screens */
 @media (min-width: 768px) {
     body {
@@ -94,7 +101,6 @@ p {
 
 :root {
     --clip-path-3: polygon(0% 0%, 90% 0, 100% 100%, 100% 100%, 0 100%);
-    --gradient-1: linear-gradient(to right bottom, hsl(299, 100%, 52%), hsl(291, 100%, 58%), hsl(283, 100%, 60%), hsl(273, 100%, 62%), hsl(262, 100%, 63%), hsl(242, 100%, 69%), hsl(223, 100%, 62%), hsl(210, 100%, 50%), hsl(203, 100%, 50%), hsl(198, 100%, 50%), hsl(192, 100%, 48%), hsl(185, 90%, 48%));
     --text-white: white;
     --main-color: #008080;
     --fontSize-6: 40px;
